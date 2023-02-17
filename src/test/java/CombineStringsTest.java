@@ -13,6 +13,7 @@ public class CombineStringsTest {
         String input2 = "xyz";
         String expected = "abcxyz";
         String actual = cs.combine(input1, input2);
+        System.out.println(actual);
         Assert.assertEquals(expected,actual);
     }
     /**
@@ -24,6 +25,7 @@ public class CombineStringsTest {
         String input2 = "456";
         String expected = "123456";
         String actual = cs.combine(input1, input2);
+        System.out.println(actual);
         Assert.assertEquals(expected,actual);
     }
 }
