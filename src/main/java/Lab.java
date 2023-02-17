@@ -10,6 +10,6 @@ public class Lab {
      */
     public String combine(String a, String b){
         //String ab = a + b;
-        return a+b;
+        return a + b;
     }
 }
